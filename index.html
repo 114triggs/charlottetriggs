@@ -1,56 +1,118 @@
-<html><head>
-  <title>Charlotte Triggs - Homepage</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charlotte Triggs | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar a {
+    color: #1e3c72;
+    font-weight: 500;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    margin-top: -90px;
+    border: 6px solid white;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.button-custom {
+    background-color: #2a5298;
+    color: white;
+    border-radius: 25px;
+}
+
+.button-custom:hover {
+    background-color: #1e3c72;
+}
+</style>
 </head>
 
-<body style="margin: 0; padding: 0; background-color: white; font-family: 'Raleway', sans-serif;">
+<body>
 
-<!-- Page Container with fixed max-width -->
-<div class="w3-content" style="max-width: 1200px;">
-
-  <!-- Header -->
-  <header class="w3-panel w3-center w3-opacity" style="padding: 16px;">
-    <h1 class="w3-xlarge">Student</h1>
+<!-- Hero Section -->
+<div class="hero">
     <h1>Charlotte Triggs</h1>
+    <p>Student | Aspiring Professional | Learning to Code</p>
+</div>
 
-    <div class="w3-padding-32">
-      <div class="w3-bar w3-border w3-center">
-      <a href="index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="about.html" class="w3-bar-item w3-button">About Me</a>
-      <a href="travel.html" class="w3-bar-item w3-button">Travel</a>
-      <a href="hockey.html" class="w3-bar-item w3-button">Hockey</a>
-    </div>
-  </div>
-  </header>
+<!-- Navigation -->
+<div class="w3-bar w3-center navbar w3-padding">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About Me</a>
+    <a href="travel.html" class="w3-bar-item w3-button">Travel</a>
+    <a href="hockey.html" class="w3-bar-item w3-button">Hockey</a>
+</div>
 
-  <!-- Image matches header width exactly -->
-  <div style="text-align: center; padding: 0 16px;">
-    <a href="https://www.advance-he.ac.uk/ntfs/dr-stephen-lynch">
-      <img src="1720248178138.jpg" alt="Charlotte Triggs" style="width: 150px; height: auto;">
+<!-- Profile Image -->
+<div class="w3-center">
+    <img src="1720248178138.jpg" alt="Charlotte Triggs" class="profile-img">
+</div>
+
+<!-- About Section -->
+<div class="section">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+        I am currently learning web development and building my skills in HTML, CSS, and programming.
+        This website showcases who I am, my interests, and my journey as I develop my technical abilities.
+    </p>
+
+    <br>
+
+    <a href="about.html" class="w3-button button-custom w3-padding-large">
+        Learn More About Me
     </a>
-  </div>
-
-</div style="text-align: center; padding: 0 16px;"> <!-- End w3-content -->
-
-<br>
-  This is a page to diplay who I am whilst learnign to code.
-<br>
+</div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
-  <a href="https://www.facebook.com/stephen.lynch.12935"><i class="fa fa-facebook-official fa-2x w3-hover-opacity"></i></a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/professor-stephen-lynch-8b2408163/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>&nbsp;&nbsp;
-  <a href="https://github.com/proflynch"><i class="fa fa-github fa-2x w3-hover-opacity"></i></a>&nbsp;&nbsp;
-  <a href="https://github.com/DrStephenLynch"><i class="fa fa-github-alt fa-2x w3-hover-opacity"></i></a>&nbsp;&nbsp;
-  <a href="https://x.com/DrStephenLynch"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
-  <p>© Professor Stephen Lynch NTF FIMA SFHEA</p>
+<footer class="w3-container w3-padding-32 w3-center" style="background-color:#1e3c72; color:white;">
+    <div class="w3-xlarge w3-section">
+        <a href="#"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="#"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="#"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+    </div>
+    <p>© 2026 Charlotte Triggs</p>
 </footer>
 
+</body>
+</html>
 
-
-
-</body></html>
