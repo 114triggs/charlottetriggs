@@ -39,7 +39,7 @@ body {
     font-weight: 500;
 }
 
-/* Sections */
+/* Section Styling */
 .section {
     padding: 60px 20px;
 }
@@ -57,21 +57,56 @@ body {
     color: #1e3c72;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+/* Skill Bars */
+.skill {
+    margin: 20px 0;
 }
 
-.skill-box {
-    background-color: #e8f0ff;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
+.skill-name {
+    margin-bottom: 5px;
     font-weight: 500;
 }
 
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 15px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    width: 0;
+    animation: fillSkill 2s forwards;
+}
+
+/* Individual Skill Widths */
+.python { width: 85%; }
+.r { width: 75%; }
+.sql { width: 70%; }
+.excel { width: 90%; }
+.statistics { width: 80%; }
+
+@keyframes fillSkill {
+    from { width: 0; }
+}
+
+/* CV Button */
+.cv-button {
+    display: inline-block;
+    background-color: #2a5298;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.cv-button:hover {
+    background-color: #1e3c72;
+}
 </style>
 </head>
 
@@ -94,14 +129,11 @@ body {
 
 <div class="section">
 
-    <!-- Professional Summary -->
+    <!-- Professional Profile -->
     <div class="card">
         <h3>Professional Profile</h3>
         <p>
             I am a commercially driven analyst with a background in Economics and Data Science.
-            I specialise in using data to support strategic decision-making, revenue growth,
-            and operational optimisation. My experience spans financial performance analysis,
-            forecasting, pricing strategy, and customer analytics.
+            I specialise in financial performance analysis, forecasting, pricing strategy, and
+            customer analytics to support strategic decision-making.
         </p>
-        <p>
-            Currently completing an MSc in Data Science at Loughborough University,
