@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charlotte Triggs | Work Experience</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar a {
+    color: #1e3c72;
+    font-weight: 500;
+}
+
+/* Section */
+.section {
+    padding: 60px 20px;
+}
+
+/* Experience Cards */
+.card {
+    background: white;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #1e3c72;
+    margin-bottom: 5px;
+}
+
+.company {
+    font-weight: bold;
+    color: #2a5298;
+}
+
+.date {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background-color: #e8f0ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Work Experience</h1>
+    <p>Commercial Strategy | Data Analytics | Leadership</p>
+</div>
+
+<!-- Navigation -->
+<div class="w3-bar w3-center navbar w3-padding">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About Me</a>
+    <a href="travel.html" class="w3-bar-item w3-button">Travel</a>
+    <a href="hockey.html" class="w3-bar-item w3-button">Hockey</a>
+    <a href="experience.html" class="w3-bar-item w3-button w3-text-blue">Experience</a>
+</div>
+
+<div class="section">
+
+    <!-- Commercial Manager -->
+    <div class="card">
+        <h3>Commercial Manager</h3>
+        <div class="company">Memorable Pubs Ltd – Loughborough, UK</div>
+        <div class="date">January 2025 – Present</div>
+
+        <ul>
+            <li>Contributed to a 17.3% revenue increase (£307k YoY) through data-driven commercial strategy.</li>
+            <li>Built Excel KPI dashboards tracking revenue, margins, and promotional performance.</li>
+            <li>Supported forecasting and pricing decisions using demand and sales analysis.</li>
+            <li>Managed and analysed a 1,000+ member loyalty programme to improve retention and revenue predictability.</li>
+            <li>Led digital transformation initiatives to improve transaction efficiency.</li>
+            <li>Negotiated supplier contracts and supported cost optimisation strategies.</li>
+        </ul>
+
+        <div class="highlight">
+            Key Achievement: Delivered £307k revenue uplift using analytics-led decision making.
+        </div>
+    </div>
+
+    <!-- Hockey Coach -->
+    <div class="card">
+        <h3>Elite Hockey Coach</h3>
+        <div class="company">MT13 Elite Hockey Training – UK</div>
+        <div class="date">2018 – 2023</div>
+
+        <ul>
+            <li>Delivered structured performance analysis for elite junior athletes.</li>
+            <li>Tracked and evaluated development programmes using performance metrics.</li>
+            <li>Worked in high-pressure environments requiring leadership and communication.</li>
+        </ul>
+
+        <div class="highlight">
+            Developed leadership, mentoring, and high-performance team management skills.
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center" style="background-color:#1e3c72; color:white;">
+    <div class="w3-xlarge w3-section">
+        <a href="https://www.linkedin.com/in/charlotte-a-triggs-114abc"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="#"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="mailto:charlottetriggs114@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+    </div>
+    <p>© 2026 Charlotte Triggs</p>
+</footer>
+
+</body>
+</html>
